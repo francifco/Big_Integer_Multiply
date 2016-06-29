@@ -1,5 +1,9 @@
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 
 public class Multiply {
@@ -8,14 +12,21 @@ public class Multiply {
 	
 	public static void main(String[] args) throws IOException {
 		 
-		 String strnumberA = "123456789";
-		 String strnumberB = "123456";
+		
 		 String strResult;
-		 int[] arrayIntnumA = StrToArrayInt(strnumberA,strnumberA.length());
-		 int[] arrayIntnumB = StrToArrayInt(strnumberB,strnumberB.length());
+		 List<int[]> dataset = new ArrayList<int[]>();
 		 int[] arrayResult;
 		 
 		 long time_start, time_end;
+		 
+		 BufferedReader br = new BufferedReader(new FileReader("DataSet10000.txt"));           
+		  String sCurrentLine;			
+		
+	      while ((sCurrentLine = br.readLine()) != null) {			 
+	    	  dataset.add(StrToArrayInt(sCurrentLine,sCurrentLine.length()));		 		
+	      }	
+	      
+	      br.close();
 		 
 		 /*
 		 cost=0;
@@ -57,7 +68,7 @@ public class Multiply {
 		 System.out.println("Costo: "+cost);
 		 System.out.println("El resultado de la multiplicacion con es: "+result);
 		 */
-		 
+		 /*
 		 cost=0;
 		 System.out.println("\nMultipliacion con  SCHONHAGE STRASSEN****************************\n");
 		 time_start = System.currentTimeMillis();	
@@ -67,15 +78,14 @@ public class Multiply {
 		 System.out.println("Tiempo de ejecucion: "+ (( time_end - time_start )*0.001) +" Second");
 		 System.out.println("Costo: "+cost);
 		 System.out.println("El resultado de la multiplicacion con es: "+strResult);
-		 
-		 
+		 */
 	 }
 	
+	
 		 
-	 ///Suma de arreglos indice por indice. 
-	 public static int[] SumTwoValues(int[] numA, int[] numB){
-		 
-		 
+	///Suma de arreglos indice por indice. 
+	public static int[] SumTwoValues(int[] numA, int[] numB){
+		
 		 int[] bignum;
 		 int[] lownum;
 		 int j;

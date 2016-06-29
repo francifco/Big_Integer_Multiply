@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Multiply.java&quot; tooltip=&quot;Big_Integer_Multiply/src/Multiply.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Big_Integer_Multiply/src/Multiply.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_vxPj8j09EeauKL7ehfD4Mw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_w6sfUj09EeauKL7ehfD4Mw" label="%trimmedwindow.label.eclipseSDK" x="31" y="5" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_vxPj8j09EeauKL7ehfD4Mw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_w6sfUj09EeauKL7ehfD4Mw" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -159,8 +159,8 @@
           <tags>persp.actionSet:org.python.pydev.exceptionBreakpoints</tags>
           <tags>persp.showIn:org.eclipse.ui.views.ContentOutline</tags>
           <tags>persp.actionSet:org.python.pydev.pyPropertyTrace</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_N9KTgT0_EeauKL7ehfD4Mw" selectedElement="_N9KTkz0_EeauKL7ehfD4Mw">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_N9KTgj0_EeauKL7ehfD4Mw" containerData="6777" selectedElement="_N9KTjj0_EeauKL7ehfD4Mw">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_N9KTgT0_EeauKL7ehfD4Mw" selectedElement="_N9KTgj0_EeauKL7ehfD4Mw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_N9KTgj0_EeauKL7ehfD4Mw" containerData="9000" selectedElement="_N9KTjj0_EeauKL7ehfD4Mw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_N9KTgz0_EeauKL7ehfD4Mw" containerData="1000" selectedElement="_N9KThD0_EeauKL7ehfD4Mw" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_N9KThD0_EeauKL7ehfD4Mw" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_N9KThT0_EeauKL7ehfD4Mw">
                   <tags>org.eclipse.e4.primaryNavigationStack</tags>
@@ -179,14 +179,14 @@
               </children>
               <children xsi:type="basic:PartSashContainer" xmi:id="_N9KTjj0_EeauKL7ehfD4Mw" containerData="9000" selectedElement="_N9KTjz0_EeauKL7ehfD4Mw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_N9KTjz0_EeauKL7ehfD4Mw" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_xiSq0D09EeauKL7ehfD4Mw"/>
-                <children xsi:type="basic:PartStack" xmi:id="_N9KTkD0_EeauKL7ehfD4Mw" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" containerData="1000" selectedElement="_N9KTkT0_EeauKL7ehfD4Mw">
+                <children xsi:type="basic:PartStack" xmi:id="_N9KTkD0_EeauKL7ehfD4Mw" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" toBeRendered="false" containerData="1000">
                   <tags>org.eclipse.e4.secondaryNavigationStack</tags>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_N9KTkT0_EeauKL7ehfD4Mw" elementId="org.eclipse.ui.views.ContentOutline" ref="_xivWyj09EeauKL7ehfD4Mw"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_N9KTkT0_EeauKL7ehfD4Mw" elementId="org.eclipse.ui.views.ContentOutline" toBeRendered="false" ref="_xivWyj09EeauKL7ehfD4Mw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_N9KTkj0_EeauKL7ehfD4Mw" elementId="org.eclipse.ant.ui.views.AntView" toBeRendered="false" ref="_xjCRsD09EeauKL7ehfD4Mw"/>
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartStack" xmi:id="_N9KTkz0_EeauKL7ehfD4Mw" elementId="org.eclipse.debug.internal.ui.ConsoleFolderView" containerData="3223" selectedElement="_N9KTlD0_EeauKL7ehfD4Mw">
+            <children xsi:type="basic:PartStack" xmi:id="_N9KTkz0_EeauKL7ehfD4Mw" elementId="org.eclipse.debug.internal.ui.ConsoleFolderView" containerData="1000" selectedElement="_N9KTlD0_EeauKL7ehfD4Mw">
               <tags>org.eclipse.e4.secondaryDataStack</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_N9KTlD0_EeauKL7ehfD4Mw" elementId="org.eclipse.ui.console.ConsoleView" ref="_xivWxz09EeauKL7ehfD4Mw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_N9KTlT0_EeauKL7ehfD4Mw" elementId="org.eclipse.ui.views.TaskList" ref="_N9Ez8D0_EeauKL7ehfD4Mw"/>
@@ -227,7 +227,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_B8_tQD0_EeauKL7ehfD4Mw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Multiply.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Multiply.java&quot; partName=&quot;Multiply.java&quot; title=&quot;Multiply.java&quot; tooltip=&quot;Big_Integer_Multiply/src/Multiply.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Big_Integer_Multiply/src/Multiply.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;219&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Multiply.java&quot; partName=&quot;Multiply.java&quot; title=&quot;Multiply.java&quot; tooltip=&quot;Big_Integer_Multiply/src/Multiply.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Big_Integer_Multiply/src/Multiply.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;550&quot; selectionTopPixel=&quot;136&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -306,7 +306,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_yHPK8T09EeauKL7ehfD4Mw" elementId="org.eclipse.ui.views.ContentOutline"/>
+      <toolbar xmi:id="_yHPK8T09EeauKL7ehfD4Mw" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_xivWyz09EeauKL7ehfD4Mw" elementId="org.eclipse.ui.texteditor.TemplatesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Templates" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/templates.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -403,7 +403,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xG4hMj09EeauKL7ehfD4Mw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xHVNID09EeauKL7ehfD4Mw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_vzoJrj09EeauKL7ehfD4Mw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_i5ZLUD2LEea5Ar-75qClFQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_vzoJrj09EeauKL7ehfD4Mw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xG4hMz09EeauKL7ehfD4Mw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -433,7 +433,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xG4hNz09EeauKL7ehfD4Mw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xHeXED09EeauKL7ehfD4Mw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_vzfBPj09EeauKL7ehfD4Mw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_i5i8VT2LEea5Ar-75qClFQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_vzfBPj09EeauKL7ehfD4Mw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_xG4hOD09EeauKL7ehfD4Mw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
